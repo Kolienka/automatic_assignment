@@ -1,0 +1,46 @@
+{	
+    "id_problem": 1,
+    "students":{
+        "Romain":[0,1,2,4],
+        "Nicolas":[1,0,2,4],
+        "Remi":[1,2,0,4],
+        "Guillaume":[1,2,2,0],
+        "Sylvain":[1,2,2,0],
+        "Lucas":[1,2,2,0],
+        "Tanguy":[1,2,2,0],
+        "Miguel":[2,0,4,1],
+        "Geoffrey":[4,1,0,2],
+        "George":[0,1,4,2]
+    },
+    "topics": {
+        "Affectations": {
+            "grp_min" : 0,
+            "grp_max" : 3,
+            "grp_size_min" : 2,
+            "grp_size_max" : 3
+        },
+    "GreenIT": {
+        "grp_min" : 0,
+        "grp_max" : 2,
+        "grp_size_min" : 2,
+        "grp_size_max" : 3
+    },
+    "iPhone" :{
+        "grp_min" : 0,
+        "grp_max" : 2,
+        "grp_size_min" : 2,
+        "grp_size_max" : 3
+    },
+    "Alumni": {
+        "grp_min" : 0,
+        "grp_max" : 2,
+        "grp_size_min" : 2,
+        "grp_size_max" : 3}
+    },
+    "global_constraints":{
+        "topic_per_student" : 1,
+        "team_size" : 1,
+        "different_topics_min" : 3,
+        "different_topics_max" : 3
+  }
+}

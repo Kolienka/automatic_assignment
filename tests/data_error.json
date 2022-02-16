@@ -1,0 +1,26 @@
+{	
+    "id_problem":2,
+      "students":{
+          "Romain":[0,1,2,4],
+          "Nicolas":[1,0,2,4],
+          "Remi":[1,2,0,4],
+          "Guillaume":[1,2,2,0],
+          "Sylvain":[1,2,2,0],
+          "Lucas:":[1,2,2,0],
+          "Tanguy":[1,2,2,0]
+      },
+          "topics": {
+              "Affectations": {
+                  "grp_min" : 1,
+                  "grp_max" : 1,
+                  "grp_size_min" : 2,
+                  "grp_size_max" : 3
+              }
+          },
+      "global_constraints":{
+          "topic_per_student" : 1,
+                  "team_size" : 1,
+                  "different_topics_min" : 3,
+                  "different_topics_max" : 4
+        }
+  }

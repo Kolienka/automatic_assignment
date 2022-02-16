@@ -1,0 +1,21 @@
+{	
+    "id_problem": 1,
+    "students":{
+        "Romain":[0,1,2,4],
+        "Nicolas":[1,0,2,4]
+    },
+    "topics": {
+        "Affectations": {
+            "grp_min" : 1,
+            "grp_max" : 2,
+            "grp_size_min" : 3,
+            "grp_size_max" : 4
+        }
+    },
+    "global_constraints":{
+        "topic_per_student" : 15,
+        "team_size" : 20,
+        "different_topics_min" : 25,
+        "different_topics_max" : 30
+  }
+}
